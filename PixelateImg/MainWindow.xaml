@@ -1,0 +1,25 @@
+﻿<Window x:Class="PixelateImg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PixelateImg"
+        mc:Ignorable="d"
+        Title="PixelateImg" Height="150" Width="400" VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="70,10,0,0" TextWrapping="Wrap" Text="D:/test.jpg" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="70,30,0,0" TextWrapping="Wrap" Text="D:/output1.jpg" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Generate" HorizontalAlignment="Center" Margin="0,72,0,0" VerticalAlignment="Center" Width="200" Click="button_Click"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="D:/output2.jpg" VerticalAlignment="Top" Width="120" Margin="70,50,0,0"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Input" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,30,0,0" TextWrapping="Wrap" Text="Output1" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" Text="Output2" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="195,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88"><Run Text="GridWidth"/><Run Language="zh-cn" Text="(int)"/></TextBlock>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="195,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="GridHeight"/><Run Language="zh-cn" Text="(int)"/></TextBlock>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="195,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="LineWidth"/><Run Language="zh-cn" Text="(float)"/></TextBlock>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="288,10,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="288,30,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="288,49,0,0" TextWrapping="Wrap" Text="0.5" VerticalAlignment="Top" Width="80"/>
+
+    </Grid>
+</Window>
